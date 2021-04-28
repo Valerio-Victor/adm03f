@@ -43,27 +43,12 @@ a, a:focus, a:hover {
 # SOBRE A DISCIPLINA 
 
 
-## Sobre o Professor
+## Quem é o Professor?
 
 
-Olá, tudo bem? Sou o Prof. Victor Valerio e durante este semestre buscarei convidá-lo a enxergar o 
-mundo a partir de uma perspectiva diferente. Para tanto, utilizaremos como lente uma ferramenta muito 
-poderosa: a Ciência Econômica. 
-
-
-Aos que não acreditam muito que esta disciplina pode ser relevante em sua formação técnica, vejamos 
-o que diz um dos economistas mais célebres da história, J. M. Keynes (falaremos sobre ele mais tarde):
-
-
-> “As ideias de economistas e filósofos políticos ambos, quando estão certos ou errados são mais 
-> poderosas do que comumente entendido. [...] Homens práticos, que acreditam ser isentos de qualquer 
-> influência intelectual são geralmente escravos de algum economista morto.”
-
-
-Se ainda não está convencido, um último argumento, carreiras relacionadas à grande área de economia 
-estão a cada dia demandando mais profissionais com robusta formação analítica, assim como vocês 
-(estudantes da UNIFEI). Entenda este curso como uma das poucas possibilidades de contato com outras 
-oportunidades de atuação (que remuneram muito bem, por sinal).
+Olá, tudo bem? Sou o Prof. Victor Valerio e durante este semestre convidarei tod@s vocês a enxergar o 
+mundo a partir de uma perspectiva diferente. Para auxiliar nesta árdua tarefa, utilizaremos como 
+lente de aumento uma ferramenta muito poderosa: a Ciência Econômica. 
 
 
 Antes de iniciar a disciplina pode ser interessante me conhecer um pouco mais já que, infelizmente, 
@@ -73,81 +58,145 @@ em relação a minha formação, sou graduado em Ciências Econômicas pela Univ
 Universidade Federal de Itajubá (UNIFEI). Ainda pode ser relevante destacar algumas das minhas 
 atuações profissionais:
 
-- **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	Macroeconomia (ADM022), 
+
+- **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	Macroeconomia (ADM03F), 
 Matemática Financeira (ADM020), Análise 	de 	Investimento com Risco (ADM013);
 
 - **PESQUISA**: Análise de Eficiência e Produtividade do Mercado de 	Crédito Nacional, Análise de 
 Eficiência e Produtividade de Projetos de 	Energia 	Renovável, Viabilidade Econômica de Projetos 
-de Energia 	Renovável;
+de Energia 	Renovável, Ciência de Dados;
 
-- **EXTENSÃO**: Coleta Seletiva na Cidade de Itajubá; Projetos de 	Energia 	Fotovoltaica para a 
-UNIFEI.
+- **EXTENSÃO**: Coleta Seletiva na Cidade de Itajubá; Projetos de 	Energia 	Fotovoltaica para as 
+Universidades Públicas.
+
+
+Aos possíveis interessados (em geral, são poucos) em determinada área de atuação, um aviso, sintam-se à vontade em entrar em contato para discutirmos projetos, possibilidades, futuro.  Em breve, as 
+ferramentas de comunicação ao longo da disciplina serão apresentadas.
 
 
 Feita esta apresentação inicial (breve monólogo), vamos começar a discutir a estrutura da disciplina 
-ECN001 ao longo do semestre.
+ADM03F ao longo do semestre.
 
 
-## Organização das Aulas
+## Qual o Objetivo da Disciplina?
 
 
-Na minha apresentação comentei brevemente sobre o objetivo da disciplina, no entanto, é
-importante ser um pouco mais formal nessa especificação. Assim, pode-se afirmar que ECN001 tem por
-objetivo principal aproximar o estudante dos diversos temas ligados à Ciência Econômica, considerando
-as suas diversas áreas de atuação profissional.
+Na minha apresentação comentei brevemente sobre o meu objetivo no curso, no entanto, é necessário 
+ser um pouco mais formal ao discutir a finalidade de uma disciplina de Macroeconomia em um curso 
+de Administração. Sobre este aspecto, é comum ouvir nos corredores alguns estudantes afirmarem que 
+são pessoas práticas, mais “mãos na massa”, visto que, “os aspectos teóricos são diferentes da 
+realidade” e, portanto, “em nada contribuem para o desenvolvimento de competências necessárias à 
+prática profissional”. 
 
 
-Para atingir este objetivo durante o semestre, utilizaremos um formato que talvez não seja o ideal: 
-**as aulas serão estritamente expositivas a partir de vídeos já gravados**. Não é o ideal pois a
-interação entre professores e estudantes é riquíssima, mais dinâmica, complementar (eu sei de tudo
-isso). Mas durante o RTE não é democrático realizar atividades síncronas 
-(**Ponto de vista do presente e humilde professor!**), visto que, alguns estudantes não possuem 
-acesso à internet em tempo integral e, tampouco, possuem acesso com a qualidade necessária para o 
-desenvolvimento da aula. É importante avançar sem deixar ninguém para trás!
+Em primeiro lugar, não é novidade para nenhum pesquisador que a teoria não consegue abarcar toda a
+complexidade da realidade avaliada. Mais do que isso, a finalidade de uma formulação teórica é outra,
+simplificar determinada realidade avaliada em algumas poucas variáveis que realmente representam o caso.
+Portanto, a contribuição de uma formulação teórica está, justamente, em simplificar a realidade e assim
+permitir, por exemplo, que as práticas profissionais possam focar no que realmente importa.
 
 
-Aqui é importante acrescentar um aviso: Obviamente, eu não gravo diversos vídeos em cada semestre. 
-Por isso, a maior parte dos vídeos foram gravados (e “aproveitados”) de semestres anteriores. Não 
-estranhe caso seja comentada alguma data (ou ocorrência) fora do contexto da presente disciplina. 
-Foque apenas nos conteúdos de cada vídeo.
+Como efeito, as contribuições das formulações teóricas são evidentes uma vez que as pessoas mais 
+fundamentadas melhor compreendem um determinado problema (primeiro passo para elaboração de uma boa
+solução) e afirmar que “os aspectos teóricos são diferentes da realidade” é similar a “chover no molhado”,
+ou mesmo “subir para cima” (é, por natureza, diferente! busca simplificar). Cobrar outra contribuição de
+uma formulação teórica nada mais é que desvirtuar sua finalidade.
 
 
-Os capítulos seguintes desta apostila possuem os diversos vídeos com a apresentação dos conteúdos 
-referentes a cada semana do cronograma da disciplina. Cada capítulo corresponde a uma semana de aula,
-assim, em cada capítulo vocês encontrarão:
+Em parte dos casos, inclusive, o seu entendimento sobre um tema provavelmente é derivado de alguma
+formulação teórica anterior. Assim, também não é correto assumir a possibilidade de ser totalmente 
+prático, o que significa que você é menos “mão na massa” do que imagina. 
 
+
+De um lado, as contribuições teóricas para a vida prática são óbvias e evidentes (faltava apenas um bom
+entendimento sobre a ciência), de outro lado, você é frequentemente influenciado por alguma elaboração
+teórica anterior. A conclusão geral é que o entendimento nas conversas de corredor precisa melhorar 
+muito para chegar a estar errado.
+
+
+Se você ainda não está convencido, vejamos o que disse um dos economistas mais célebres da história, 
+J. M. Keynes (falaremos sobre ele em momento propício):
+
+
+> “As ideias de economistas e filósofos políticos ambos, quando estão certos ou errados, são mais 
+> poderosas do que comumente entendido. [...] Homens práticos, que acreditam ser isentos de qualquer 
+> influência intelectual são geralmente escravos de algum economista morto.”
+
+
+Mas agora é hora da mea-culpa. Não são raras as vezes em que uma formulação teórica ganha excessiva 
+complexidade, dificultando o seu entendimento e, por consequência, reduzindo sua contribuição prática. 
+Com facilidade os economistas criam dificuldades de acesso! Além disso, muitas vezes a associação 
+entre a formulação teórica e sua aplicação prática não é simples e imediata. 
+
+
+Agora, estamos aptos à compreender o objetivo da discplina, qual seja:
+
+
+> O Objetivo geral da disciplina de Macroeconomia consiste em introduzir as principais formulações 
+> teóricas necessárias ao entendimendo do funcionamento da economia de um país ressaltando, sempre 
+> que possível, as associações práticas possíveis para o nível de aprofundamento alcançado.
+
+
+Como é possível depreender, o objetivo não é nada simples. Desta forma, é relevante discutir os 
+aspectos práticos da condução da disciplina de modo a alcançar a presente proposição.
+
+
+
+## Como as Aulas Serão Organizadas Durante o RTE?
+
+
+Para atingir o objetivo proposto durante o semestre, utilizaremos um formato que talvez não seja o 
+ideal: **as aulas serão estritamente expositivas a partir de reuniões no google meet (às quartas-feiras no horário da nossa aula)**. 
+Todas elas serão gravadas para posterior envio aos estudantes com dificuldade de acesso à internet.
+
+
+Não é o ideal pois existem formatos mais dinâmicos de aula, em que de atividades são conduzidas pelos 
+estudantes, então, responsáveis pela própria formação. Este conceito de “sala de aula invertida” tem
+o potencial de aumentar o desenvolvimento de competências relacionadas a disciplina. Mas durante o RTE este formato
+não é democrático, visto que, para alguns estudantes qualquer atividade síncrona é inviável na medida 
+em que não eles possuem acesso à internet em tempo integral e, tampouco, possuem acesso com a qualidade 
+necessária para o desenvolvimento da aula. É importante avançar sem deixar ninguém para trás! 
+Ressalta-se mais uma vez que, por este motivo, todas os encontros serão gravados e enviados a todos 
+os estudantes que não puderem participar de maneira síncrona.
+
+
+Os vídeos gravados em cada reunião serão inseridos nos capítulos seguintes desta apostila, em seus 
+respectivos tópicos, de acordo com os conteúdos referentes a cada semana do cronograma da disciplina. 
+Além disso, vocês encontrarão como material complementar de cada capítulo (e, portanto, de cada semana 
+de aula) as seguintes informações/materiais:
 
 - Objetivo da aula;
 
-- Principais conceitos trabalhados na aula;
+- Breve exposição sobre os principais conceitos trabalhados na aula;
 
-- Slide da aula (o mesmo utilizado no vídeo);
+- Slide da aula (o mesmo utilizado na reunião);
 
-- Vídeo explicando os conceitos da aula;
+- Vídeo explicando os conceitos da aula (gravado durante a reunião);
 
-- Reuniões pré-agendadas no google meet para tirar possíveis dúvidas sobre os conteúdos, ou sobre o
-cronograma, ou para que a gente possa conversar assuntos gerais também (as datas e horários para 
-essas reuniões serão explicadas a seguir).
+- Reuniões pré-agendadas no google meet para tirar possíveis dúvidas sobre os conteúdos, ou sobre o 
+cronograma, ou para que a gente possa conversar assuntos gerais também (estas reuniões ocorrerão aos 
+sábados).
 
 
-Para que eu possa realizar um acompanhamento do avanço de vocês, em cada semana será postado um
-questionário no SIGAA contendo questões referentes ao capítulo trabalhado na semana. O prazo para
-resposta da atividade será de uma semana após a sua postagem e a presença de cada estudante será
+Para que eu possa realizar um acompanhamento do avanço de vocês, em cada semana será postado um 
+questionário no SIGAA contendo questões referentes ao capítulo trabalhado na semana. O prazo para 
+resposta da atividade será de uma semana após a sua postagem e a presença de cada estudante será 
 computada a partir de sua realização (as atividades também irão compor a nota e comentarei sobre 
-isso a seguir). 
+isso a seguir). Fiquem tranquilos, nenhuma atividade será postada antes da disponibilização da 
+vídeo-aula.
 
 
-## Organização dos Atendimentos
+## Como os Atendimentos Serão Organizados?
 
 
-Como afirmado acima, teremos encontros semanais já previamente agendados em cada um dos capítulos. 
-Todos estes encontros serão realizados a partir da plataforma **google meet** e os links também serão
-disponibilizados em cada capítulo. 
+Como afirmado acima, teremos encontros semanais (aos sábados) já previamente agendados em cada um 
+dos capítulos. Todos estes encontros serão realizados a partir da plataforma **google meet** e os 
+links também serão disponibilizados em cada capítulo. 
 
 
 A lógica para determinação dos horários e dias das reuniões já previamente agendadas é simples: as 
-reuniões iniciarão às 8:30h nos dias em que temos as nossas aulas. Cumpre ressaltar que eu estarei 
-disponível até o fim da aula (9:45h) desde que haja interação, isto é, se em um prazo de 15 minutos 
+reuniões iniciarão aos sábados às 10:10h (conforme nossas aulas). Cumpre ressaltar que eu estarei 
+disponível até o fim da aula (11:05h) desde que haja interação, isto é, se em um prazo de 15 minutos 
 ninguém entrar na reunião para interação, ela será automaticamente cancelada.
 
 
@@ -158,7 +207,7 @@ como estamos todos em isolamento e este momento é muito difícil, podemos conve
 
 
 Adicionalmente, coerência é o que liga o passado ao presente e é necessária para que haja fé no 
-futuro. Se as aulas não são síncronas pelo argumento de dificuldade de acesso à internet, os 
+futuro. Se as atividades não são síncronas pelo argumento de dificuldade de acesso à internet, os 
 atendimentos também devem ser mais flexíveis. Pensando nisso, cada estudante poderá solicitar 
 reuniões particulares, basta enviar um e-mail para o endereço 
 [**victor.dmv@unifei.edu.br**](victor.dmv@unifei.edu.br). 
@@ -167,23 +216,10 @@ Mas acrescento, justificativas para a reunião deve ser adicionada no corpo do e
 
 Há ainda mais um instrumento de interação, criei um grupo no whatsapp (acho o mais dinâmico de todos). 
 Por favor, ingresse no grupo! Basta clicar neste 
-[**link**](https://chat.whatsapp.com/GFFjHxSqhHFIjl2Vj96PQr)!!!!!
+[**link**](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk)!!!!! Obviamente, sua entrada é facultativa!
 
 
-## Cronograma da Disciplina 
-
-
-Toda a disciplina foi organizada em três frentes de conhecimento, visto que, sem maior rigor, cada 
-uma destas frentes contemplam uma determinada área de atuação profissional do economista e, por se 
-tratar de uma disciplina introdutória, todas devem ser tratadas de modo que o estudante tenha a 
-maior quantidade de contatos possíveis. São elas: 
-
-
-- **ÁREA 1: MÉTODO DE PESQUISA EM ECONOMIA**
-
-- **ÁREA 2: MICROECONOMIA**
-
-- **ÁREA 3: MACROECONOMIA**
+## Quais o Cornograma e Quais os Conteúdos da Disciplina?
 
 
 Os temas discutidos em cada semana relacionados às respectivas áreas são apresenados no cronograma 
@@ -203,47 +239,47 @@ cronograma <- data.frame(
   
   AULA = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16),
   
-  ÁREA = c('---', 
+  DIA = c('28/04', 
            
-           'Metodologia', 'Microeconomia', 'Microeconomia','Microeconomia','Microeconomia',
+           '05/05', '12/05', '19/05', '26/05', '02/06',
            
-           'Microeconomia', 'Metodologia e Microeconomia', 'Metodologia e Microeconomia',
+           '09/06', '16/06', '23/06',
            
-           'Macroeconomia', 'Macroeconomia', 'Macroeconomia', 'Macroeconomia', 'Macroeconomia',
+           '30/06', '07/07', '14/07', '21/07', '28/07',
            
-           'Macroeconomia', 'Metodologia, Microeconomia e Macroeconomia'),
+           '04/08', '11/08'),
   
   CONTEÚDO = c('Apresentação da Disciplina', 
            
-           'Método de Pesquisa em Economia', 
+           'Fluxo Circular da Renda', 
            
-           'Preferências do Consumidor', 
+           'Agregados Macroeconômicos', 
            
-           'Funções Utilidade e Escolha Ótima',
+           'Nível de Atividade',
            
-           'Otimização da Produção (Curto Prazo)',
+           'Mercado de Trabalho',
            
-           'Otimização da Produção (Longo Prazo)',
+           'Taxa de Inflação',
            
-           'Equilíbrio de Mercado', 
+           'Consolidação dos Temas', 
            
-           'Discussão sobre os Temas Tratados', 
+           'PROVA 1 (Aulas 2 à 7)', 
            
-           'Prova 1 - Questionário SIGAA',
+           'Taxa de Juros',
            
-           'Agregados Macroeconômicos (Fluxo Circular da Renda)', 
+           'Mercado de Crédito', 
            
-           'Agregados Macroeconômicos (Contabilidade Social)', 
+           'Taxa de Câmbio', 
            
-           'Taxa de Inflação', 
+           'Política Fiscal', 
            
-           'Taxa de Juros', 
+           'Política Monetária', 
            
-           'Taxa de Câmbio',
+           'Consolidação dos Temas',
            
-           'Prova 2 - Questionário SIGAA', 
+           'PROVA 2 (Aulas 9 à 15)', 
            
-           'Prova Substitutiva'))
+           'PROVA SUBSTITUTIVA (Todas as aulas teóricas'))
 
 
 knitr::kable(cronograma, 
@@ -266,41 +302,25 @@ knitr::kable(cronograma,
 
 
 A lógica aqui também é simples, após esta primeira semana em que nos limitaremos a apresentação da 
-disciplina, iniciaremos todas as discussões teóricas. Em primeiro lugar, serão apresentados os 
-aspectos metodológicos da ciência econômica. Basicamente, a discussão sobre método de pesquisa em 
-economia serve para nivelar toda a discussão a frente, para explicar que a **Ciência Econômica** 
-não é pautada em opiniões e sim em modelos (a própria definição do que é um modelo no contexto das 
-ciências sociais é apresentada).
+disciplina, iniciaremos todas as discussões teóricas. Em primeiro lugar, o funcionamento básico da
+economia será apresentado até a quarta aula (chamado de economia real). Em seguida, serão apresentados 
+os impactos deste funcionamento em dois indicadores (desemprego e inflação). Uma aula é destinada a 
+consolidação de todos os conceitos introduzidos e, então, estamos aptos a realizar a primeira prova.
 
 
-Nas 5 semanas seguintes serão realizadas apresentações teóricas a respeito de modelos no contexto 
-da microeconomia, correspondendo a primeira parte da disciplina. Então, dedicaremos uma aula para 
-discussões gerais sobre todos os conteúdos vistos para, posteriormente, realizar a primeira prova 
-(cujo conteúdo é referente a tudo que já foi visto, isto é, método de pesquisa em economia e 
-microeconomia).
+Em seguida, novos mercados são introduzidos paulatinamente, entre as aulas 9 e 13. Da mesma maneira, 
+uma aula de consolidação dos conhecimentos adicionados é organizada para, então, realizarmos a 
+segunda avaliação.
 
 
-Finalizada a primeira parte da disciplina, iniciaremos todas as discussões no âmbito da 
-macroeconomia. De fato, também serão dedicadas 5 semanas aos modelos macroeconômicos. Reparem que, 
-infelizmente, nesta segunda parte da disciplina não haverá uma aula dedicada a discussões gerais 
-pois não há calendário disponível para isso. Portanto, na segunda parte da disciplina é ainda mais 
-importante a participação nos encontros semanais. Assim, chegaremos à segunda prova relativa aos 
-conteúdos estritamente de macroeconomia.
-
-
-Quando relevante, na última semana será aplicada uma prova substitutiva com todos os conteúdos 
-vistos na disciplina. Vamos discutir a seguir com mais profundidade a formação da nota a partir 
-das avaliações.
+Pergunta sempre recorrente, aos que não alcançarem o desempenho suficiente nas duas primeiras provas,
+será aplicada uma prova substitutiva em que todos os conteúdos da disciplina serão cobrados
 
 
 ## Cronograma das Avaliações
 
 
-As avaliações deverão contemplar todo o conteúdo tratado no decorrer do semestre, mais uma vez, 
-abrangendo os temas ligados às áreas de método de pesquisa em economia, microeconomia e 
-macroeconomia. 
-
-
+As avaliações deverão contemplar todo o conteúdo tratado no decorrer do semestre de macroeconomia. 
 Em associação, vocês serão avaliados a partir de dois instrumentos: questionários com frequência 
 semanal restritos ao respectivo conteúdo trabalhado em cada semana do nosso cronograma e, além 
 disso, duas provas (que também serão realizadas a partir de questionários no SIGAA).
@@ -320,11 +340,11 @@ library(kableExtra)
 cronograma <- data.frame(
   
   
-  TURMA = c('T01 - Segunda', 'T01 - Segunda', 'T07 - Sexta', 'T07 - Sexta'),
+  CONTEÚDOS = c('Aulas 2 à 7', 'Aulas 9 à 15', 'Todas as aulas teóricas'),
   
-  REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova 1', 'Prova 2'),
+  REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova Substitutiva'),
   
-  DATA = c('21/06', '02/08', '25/06', '06/08'))
+  DATA = c('16/06', '04/08', '11/08'))
 
 
 knitr::kable(cronograma, 
@@ -353,22 +373,24 @@ $$ Nota_1  = 0,8 Prova_1 + 0,2 Questionários_{parte 1}$$
 $$ Nota_2  = 0,8 Prova 2 + 0,2 Questionários_{parte 2}$$
 $$ Nota_{Final}  = (Nota_1 + Nota_2)/2$$
 
-Aqui vai um último aviso, devo destacar, sempre recorrente aos finais dos semestres. As provas 
-substitutivas serão organizadas a partir de todo o conteúdo trabalho na disciplina. Se organize 
-para que a realização de mais esta avaliação não seja necessária.
+Para ser chato, o mesmo aviso: As provas substitutivas serão organizadas a partir de todo o conteúdo 
+trabalho na disciplina. Se organize para que a realização de mais esta avaliação não seja necessária.
 
 
 ## Materiais 
 
-Em primeiro lugar, como maior preocupação dos estudantes, todos os slides utilizados nos vídeos são disponibilizados neste documento, alocados no respectivo conteúdo. Sabemos que eles representam resumos do conteúdo tratado. Ao final de cada slide são apresentadas as referências textuais utilizadas (todas elas estão na biblioteca, mas durante o RTE, isso representa um problema para a nossa disciplina. Quando sentir que é necessário, entre em contato por whatsapp para discutirmos a disponibilização dos textos).
+Em primeiro lugar, como maior preocupação dos estudantes, todos os slides utilizados nas reuniões serão 
+disponibilizados neste documento, alocados no respectivo conteúdo. Sabemos que eles representam 
+resumos do conteúdo tratado. Ao final de cada slide são apresentadas as referências textuais utilizadas 
+(todas elas estão na biblioteca, mas durante o RTE, isso representa um problema para a nossa disciplina. 
+Quando sentir que é necessário, entre em contato por whatsapp/e-mail para discutirmos a disponibilização dos 
+textos).
 
 
 Todos os textos são encontrados nos seguintes livros:
 
 
 - **METODOLOGIA**: MANKIW, N. G. Introdução à Economia. São Paulo: Cengage Learning, 2009;
-
-- **MICROECONOMIA**: VARIAN, H. R. Microeconomia: Uma abordagem moderna. Rio de Janeiro: Elsevier, 2012;
 
 - **MACROECONOMIA**: BLANCHARD, O. Macroeconomia: Teoria e Política Econômica. São Paulo: Pearson Prentice Hall.
 
@@ -378,14 +400,14 @@ Todos os textos são encontrados nos seguintes livros:
 
 Não deixe de participar do nosso próximo encontro:
 
-- **DIA:** 03/05
+- **DIA:** 05/05
 
-- **HORÁRIO:** 08:30h
+- **HORÁRIO:** 21:00h
 
-- **LINK:** https://meet.google.com/czn-zsys-hmo
+- **LINK:** **https://meet.google.com/fkm-nvjg-xmm**
 
-
-Até lá!
+Nesta semana não teremos encontro no sábado pois é feriado. Então, até a nossa próxima aula que ocorrerá 
+na quarta-feira (05/05)!!!
 
 
 # SOBRE A APOSTILA
