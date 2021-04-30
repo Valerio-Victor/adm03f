@@ -410,6 +410,27 @@ Nesta semana não teremos encontro no sábado pois é feriado. Então, até a no
 na quarta-feira (05/05)!!!
 
 
+## Materiais da Última Aula
+
+
+Para acessar o slide, basta clicar neste [**LINK**](https://adm03f-aula1.netlify.app/#1).
+
+
+Por sua vez, a videoaula é disponibilizada abaixo:
+
+
+```{r , echo = FALSE, out.width='100%', fig.align='center'}
+
+library("htmltools")
+library("vembedr")
+
+embed <- embed_url('https://youtu.be/GOvXvNaxvWE')
+
+use_bs_responsive(embed)
+
+```
+
+
 # SOBRE A APOSTILA
 
 # FLUXO CIRCULAR DA RENDA
