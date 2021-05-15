@@ -118,10 +118,13 @@ Se você ainda não está convencido, vejamos o que disse um dos economistas mai
 J. M. Keynes (falaremos sobre ele em momento propício):
 
 
-> “As ideias de economistas e filósofos políticos ambos, quando estão certos ou errados, são mais 
-> poderosas do que comumente entendido. [...] Homens práticos, que acreditam ser isentos de qualquer 
-> influência intelectual são geralmente escravos de algum economista morto.”
-
+>
+> **“As ideias de economistas e filósofos políticos ambos, quando estão certos ou errados, são mais** 
+> **poderosas do que comumente entendido. [...] Homens práticos, que acreditam ser isentos de qualquer** 
+> **influência intelectual são geralmente escravos de algum economista morto.”**
+>
+> (J. M. Keynes)
+>
 
 Mas agora é hora da mea-culpa. Não são raras as vezes em que uma formulação teórica ganha excessiva 
 complexidade, dificultando o seu entendimento e, por consequência, reduzindo sua contribuição prática. 
@@ -131,10 +134,12 @@ entre a formulação teórica e sua aplicação prática não é simples e imedi
 
 Agora, estamos aptos à compreender o objetivo da discplina, qual seja:
 
+>
+> **O Objetivo geral da disciplina de Macroeconomia consiste em introduzir as principais formulações** 
+> **teóricas necessárias ao entendimendo do funcionamento da economia de um país ressaltando, sempre** 
+> **que possível, as associações práticas possíveis para o nível de aprofundamento alcançado.**
+>
 
-> O Objetivo geral da disciplina de Macroeconomia consiste em introduzir as principais formulações 
-> teóricas necessárias ao entendimendo do funcionamento da economia de um país ressaltando, sempre 
-> que possível, as associações práticas possíveis para o nível de aprofundamento alcançado.
 
 
 Como é possível depreender, o objetivo não é nada simples. Desta forma, é relevante discutir os 
@@ -431,7 +436,1215 @@ use_bs_responsive(embed)
 ```
 
 
-# O QUE É MACROECONOMIA
+# O QUE É MACROECONOMIA?
+
+## Contextualização Histórica
+
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif da série Frieds alusivo ao Central Park', out.width = '120%'}
+
+knitr::include_graphics('https://i.makeagif.com/media/7-20-2016/cBj4rY.gif', dpi = 300)
+
+```
+
+
+O Central Park é hoje um dos pontos turísticos mais visitados da cidade de Nova Iork, palco de filmes
+e séries, também é muito utilizado pela população local para práticas recreativas e esportivas mas,
+de fato, não foi sempre assim. Durante crise de 1929 (episódio também conhecido como a "Grande 
+Depressão"), os Estados Unidos viveram uma situação realmente catastrófica. Como exemplo, entre 1929 
+e 1932, as estimativas indicam que Renda Nacional Bruta foi reduzida à 1/3, a produção industrial 
+foi reduzida à metade acarretando, ao final do período, um altíssimo nível de desemprego, 1/4 da 
+força de trabalho estava desocupada no país. 
+
+
+O epicentro da crise foi, justamente, a cidade de Nova Iorque. Com diversas empresas fechando as 
+portas, desemprego, baixa do nível de renda da população e baixo nível de proteção social, diversas 
+pessoas foram levadas a mendicidade, dependentes de filas em que se distribuíam alimentos e agasalhos. 
+Toda essa população acumulava-se no Central Park, formando a chamada “Favela de Hoover”.
+
+
+O nome fazia alusão ao presidente dos Estados Unidos, Hebert Hoover, eleito em 1928. Engenheiro e 
+considerado um habilidoso administrador, seu desempenho à frente da presidência durante à "Grande 
+Depressão" foi duramente criticado. De fato, tampouco a sua assessoria econômica tinha qualquer noção
+de quais medidas adotar de modo a conter, ou ao menos frear, a crise que se impunha a cada dia.
+
+
+O péssimo desempenho do então presidente e de seus respectivos assessores não era um caso isolado. 
+A verdade é que, a despeito de uma acelerada evolução da ciência no campo microeconômico, o estudo 
+do funcionamento e, portanto, do desempenho da economia de um determinado país ao longo do tempo 
+ainda era incipiente. 
+
+
+Naquele período, nenhum dos economistas que estudavam a atividade econômica dispunha de indicadores 
+agregados, calculados de maneira padronizada e com divulgação perene e em frequência fixa. Em geral, 
+eram utilizados indicadores dispersos e pouco representativos do todo mesmo com a finalidade de 
+buscar compreender qual a conjuntura econômica do país. Por exemplo, eram utilizados dados de 
+produção da indústria de transformação pesada (produção de aço, por exemplo), assim como dados da 
+indústria férrea e dados a respeito das vendas de lojas de departamento.  
+
+
+O episódio da grande depressão apenas escancarou uma conclusão óbvia e evidente nos dias de hoje:
+
+
+>
+> **“O que não se mede, não se gerencia.”**
+>
+> (W. Edwards Deming)
+>
+
+
+Assim, a macroeconomia ganhou a devida atenção na ciência econômica e, como consequência, se tornou
+parâmetro de tomada de decisão em âmbitos público e privado. Esse processo pode ser verificado em 
+todo o mundo uma vez que a Grande Depressão teve impactos em diversos países (para se ter uma noção 
+da amplitude da crise de 1929, pode-se citar como exemplo de alguns estudos a associarem com ascensão
+do nazismo na Europa, por exemplo).
+
+
+Grande parte do desenvolvimento da macroeconomia à época, o que se entende hoje por macroeconomia 
+moderna, está associado às contribuições de economistas que já haviam tentado mensurar a renda 
+nacional, por exemplo, [**Simon Kuznets**](https://pt.wikipedia.org/wiki/Simon_Kuznets) e 
+[**Richard Stone**](https://pt.wikipedia.org/wiki/Richard_Stone) (ambos Prêmio Nobel de Economia) e, 
+em especial, à John [**John Maynard Keynes**](https://pt.wikipedia.org/wiki/John_Maynard_Keynes), que
+propôs pela primeira vez um sistema contábil para se mensurar uma medida da Renda Nacional e de sua 
+distribuição entre diferentes setores institucionais, em seu livro, 
+_Teoria Geral do Emprego do Juro e da Moeda_.
+
+
+De todo modo, apenas após o fim da Segunda Guerra Mundial um sistema de contabilidade de indicadores 
+agregados foi organizado, com conceitos e cálculos padronizados e contínuos e consensos a respeito 
+da necessidade de divulgações periódicas. Esse sistema de contabilidade é hoje definido como Sistema 
+de Contas Nacionais (SCN) mas, sua origem, é atribuída ao relatório
+_Definição e Medição do Rendimento Nacional e Totais Relacionados_, publicado em 1947 pelo Subcomitê
+de Estatísticas do Rendimento Nacional da Liga das Nações (cujo responsável foi o próprio
+[**Richard Stone**](https://pt.wikipedia.org/wiki/Richard_Stone)).
+
+
+Obviamente, o Sistema de Contas Nacionais já passou por uma série de atualizações, podendo se 
+destacar como último percurso o documento lançado em 1993 (e atualizado em 2008) pelas Nações Unidas,
+contendo recomendações sobre os procedimentos metodológicos e representando um esforço de padronização
+de estatísticas econômicas em todo o mundo sendo, por exemplo, integrado às estatísticas do Fundo 
+Monetário Internacional (FMI) e da Organização para a Cooperação e Desenvolvimento Econômico (OCDE).
+No Brasil, a responsabilidade pela organização e operacionalização do SCN é do Instituto Brasileiro 
+de Geografia e Estatística 
+([**IBGE**](https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais.html)).
+
+
+Todos os avanços recentes em relação à macroeconomia foram organizados em torno das medições 
+decorrentes da contabilidade social na medida em que estas medidas são o principal insumo para 
+desenvolvimento de formulações teóricas. Cumpre ressaltar porém que, ao longo do tempo, a 
+macroeconômica ampliou seu domínio de análise para diferentes temas, como veremos ao longo de 
+toda a apostila.
+
+
+## As Questões Macroeconômicas
+
+
+Conforme já explicado, o desenvolvimento da macroeconomia pode ser considerado tardio em relação, 
+por exemplo, aos temas trabalhados no âmbito da microeconomia. Mas afinal de contas, quais são os 
+temas trabalhados na macroeconomia? Quais as diferenças fundamentais em relação à microeconomia?
+
+
+Para buscar responder essas questões, uma boa abordagem inicial pode ser partir de uma tabela de 
+exemplo. Em que as questões de macroeconômica são contrapostas com questões congêneres relativas à 
+microeconomia, então, vamos a ela:
+
+
+```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
+
+
+library(magrittr)
+
+
+library(kableExtra)
+
+
+cronograma <- data.frame(
+  
+  MACROECONOMIA = c('Qual a taxa atual de crescimento da renda da população?', 
+                    'Como está o nível de atividade do conjunto de empresas no Brasil?',
+                    'Qual o nível geral de emprego na economia?',
+                    'Qual o nível geral de preços?',
+                    'Qual o impacto da taxa básica de juros no consumo das famílias?',
+                    'Qual o nível de endividamento das famílias e das empresas brasileiras?',
+                    'Qual o impacto da taxa de câmbio nas receitas do agronegócio brasileiro?',
+                    'O Governo deve continuar com a política de cotas?',
+                    'O Banco Central deve regularizar transações por whatsapp?'),
+  
+  MICROECONOMIA = c('Qual a relação entre o meu nível de escolaridade e a minha renda?', 
+                    'Qual o nível de produção máximo da minha empresa?',
+                    'Quantos trabalhadores devo contratar de modo a minimizar os custos de produção?',
+                    'Qual será o valor do aluguel daqui 1 ano?',
+                    'Determinada modalidade de aplicação é rentável?',
+                    'Devo comprar um carro financiado ou alugar?',
+                    'Devo postergar o meu intercâmbio para melhorar o meu inglês neste momento?',
+                    'Qual o impacto econômica de uma universidade em uma determinada região?',
+                    'Qual o custo de utilizar pagamentos com cartão de crédito no meu negócio?'))
+
+
+
+knitr::kable(cronograma, 
+             
+             caption = '<center>TABELA 2 - As Questões Macroeconômicas</center>', 
+             
+             escape = FALSE,
+    
+             format = 'html',
+             
+             align = c('l', 'l')) %>%
+  
+  kable_styling(bootstrap_options = 'striped')
+  
+
+
+
+
+```
+
+
+Pode-se depreender a partir da tabela que os temas tratados pela macroeconomia buscam avaliar quais 
+os “resultados finais” das decisões tomadas pelo conjunto das pessoas e empresas em um país em um 
+determinado período de tempo. Esses “resultados finais” são chamados de agregados, pois buscam 
+representar o conjunto, isto é, a soma dos indivíduos (pessoas e empresas). 
+
+
+Ao mesmo passo, esses “resultados finais” das decisões tomadas pelo conjunto das pessoas e empresas
+em um país em um determinado período de tempo podem, e devem, ser avaliados a partir de diferentes 
+perspectivas. Desta forma, a partir das questões elaboradas na tabela, pode-se depreender que os 
+temas tratados pela macroeconomia estão associados ao produto agregado, renda agregada, consumo 
+agregado (ou seja, agregados macroeconômicos) e aos seus desdobramentos no nível de desemprego, 
+inflação, taxa de juros, nível de crédito, taxa de câmbio, política fiscal e política monetária. 
+Em suma, todas essas relações em conjunto representam o que estamos chamando aqui de “funcionamento 
+da economia” (e vamos continuar chamando assim).
+
+
+Em contraste, as questões tratadas pela microeconomia são sensivelmente diferentes e, em geral, a 
+diferença está associada ao nível de análise. Como se pode concluir, as análises microeconômicas 
+estão focadas ainda no nível do indivíduo, seja ele pessoa física ou jurídica. 
+
+
+Antes de prosseguir, há aqui uma perspectiva fundamental da macroeconomia, até o referido período 
+conhecido como a Grande Depressão, a ciência econômica compreendia que bastava estruturar formulações
+teóricas a respeito das decisões dos indivíduos e das empresas e, invariavelmente, estaríamos também
+organizando hipóteses sobre o resultado final destas decisões individuais. Em suma, compreendia-se 
+que o resultado agregado poderia ser alcançado simplesmente a partir da soma dos resultados individuais,
+isto é, dos resultados microeconômicos. Dentre outros aspectos, uma das grandes contribuições de 
+Keynes foi justamente demonstrar que isto está longe de ser verdade, não raro, muitas vezes o 
+resultado agregado é até mesmo o oposto das decisões tomadas em âmbito individual.
+
+
+Para ilustrar como o resultado agregado pode ser completamente diverso do que se esperaria da soma 
+dos casos individuais, pode-se utilizar uma formulação de Keynes, conhecida como o paradoxo da 
+parcimônia (ou, o paradoxo da poupança). Por exemplo, imagine que as famílias brasileiras estão 
+preocupadas com o futuro econômico do país e, para se protegerem dos possíveis momentos difíceis 
+no futuro, elas deixam de gastar para formar uma poupança. 
+
+
+A rigor não há nada de errado em suas decisões, ao contrário, exibem prudência. Contudo, se a 
+insegurança a respeito do futuro econômico do país se espalha e diversas famílias reduzem os seus 
+gastos o resultado geral pode ser catastrófico. Na prática, a redução dos gastos das famílias 
+significa menores níveis de vendas e, portanto, de receitas. 
+
+
+Por sua vez, para se protegerem, as empresas começam a reduzir seus custos, por exemplo, demitindo 
+funcionários. Se isso acontece de maneira generalizada, temos um cenário de diminuição da renda das 
+famílias. Assim, fica evidente que o resultado agregado final das prudentes decisões individuais dos 
+agentes econômicos corresponde a uma crise econômica. Também fica evidente que um conjunto de 
+instrumentos e variáveis próprios da macroeconomia devem ser estruturados para se evitar, justamente,
+as referidas crises econômicas. 
+
+
+Os instrumentos científicos utilizados nas análises macroeconômicas serão discutidos na próxima seção,
+mas ainda resta uma questão a ser formulada e respondida, qual seja, no final de contas para que serve
+estudar macroeconomia se mesmo após o seu desenvolvimento uma série de crises econômicas ocorreram na
+nossa história? para os mais impetuosos a pergunta poderia ser assim reformulada: os macroeconomistas
+realmente compreenderam o funcionamento da economia?
+
+
+Para responder as perguntas formuladas acima vamos iniciar a análise gráfica do nosso curso, isto é,
+vamos começar a nos habituar em compreender e explicar contextos econômicos a partir de gráficos. 
+Como não poderia ser diferente, vamos iniciar a resposta colocando o Brasil em perspectiva.
+
+
+```{r, echo = F, warning = F, message = F, error = F, fig.align = 'center', fig.width = 7, fig.height = 4, dpi = 300}
+
+
+`%>%` <- magrittr:: `%>%`
+
+
+pib <- sidrar::get_sidra(api = '/t/1620/n1/all/v/all/p/all/c11255/90707',
+
+                         period = as.Date('2020-04-01')) %>%
+
+  janitor::clean_names() %>%
+
+  dplyr::mutate(date = zoo::as.yearqtr(trimestre_codigo, format = '%Y %q')) %>%
+
+  dplyr::select(date, valor)
+
+
+pib %>%
+
+  ggplot2::ggplot() +
+
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+
+                     size = 0.5, colour = '#126244') +
+
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+
+                      colour = '#126244') +
+
+  ggplot2::labs(title = '**Produto Interno Bruto** (Brasil)',
+
+                x = '**Trimestres**',
+
+                y = '**Número Índice** (Base: media de 1995 = 100)',
+
+                caption = '**Dados**: IBGE.') +
+
+  zoo::scale_x_yearqtr(n = 24, format = '%y') +
+
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+
+                 axis.title.y = ggtext::element_markdown(),
+
+                 plot.title = ggtext::element_markdown(),
+
+                 plot.caption = ggtext::element_markdown())
+
+
+```
+
+
+Colocar o gráfico do pib sem ajuste sazonal (necessidade de ajuste sazonal)
+
+```{r, echo = F, warning = F, message = F, error = F, fig.align = 'center', fig.width = 7, fig.height = 4, dpi = 300}
+
+
+`%>%` <- magrittr:: `%>%`
+
+
+pib <- sidrar::get_sidra(api = '/t/1620/n1/all/v/all/p/all/c11255/90707',
+                         
+                         period = as.Date('2020-04-01')) %>%
+  
+  janitor::clean_names() %>%
+  
+  dplyr::mutate(date = zoo::as.yearqtr(trimestre_codigo, format = '%Y %q')) %>%
+  
+  dplyr::select(date, valor)
+
+
+pib %>%
+  
+  ggplot2::ggplot() +
+  
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+                     
+                     size = 0.5, colour = '#126244') +
+  
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+                      
+                      colour = '#126244') +
+  
+  ggplot2::labs(title = '**Produto Interno Bruto** (Brasil)',
+                
+                x = '**Trimestres**',
+                
+                y = '**Número Índice** (Base: media de 1995 = 100)',
+                
+                caption = '**Dados**: IBGE.') +
+  
+  zoo::scale_x_yearqtr(n = 24, format = '%y') +
+  
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+                 
+                 axis.title.y = ggtext::element_markdown(),
+                 
+                 plot.title = ggtext::element_markdown(),
+                 
+                 plot.caption = ggtext::element_markdown()) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199601', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199603', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199701', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199703', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199801', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199803', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199901', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199903', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200001', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200003', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200101', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200103', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200201', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200203', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200301', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200303', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200401', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200403', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200501', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200503', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200601', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200603', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200701', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200703', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200801', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200803', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200901', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200903', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201001', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201003', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201101', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201103', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201201', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201203', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201301', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201303', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201401', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201403', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201501', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201503', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201601', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201603', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201701', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201703', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201801', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201803', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201901', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201903', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('202001', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('202003', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#354171', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199603', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199701', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199703', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199801', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199803', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('199901', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('199903', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200001', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) + 
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200003', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200101', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) + 
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200103', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200201', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) + 
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200203', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200301', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) + 
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200303', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200401', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) + 
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200403', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200501', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200503', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200601', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200603', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200701', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200703', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200801', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200803', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('200901', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('200903', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201001', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201003', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201101', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201103', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201201', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201203', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201301', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201303', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201401', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201403', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201501', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201503', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201601', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201603', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201701', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201703', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201801', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201803', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('201901', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) +
+  
+  ggplot2::annotate(geom = 'rect',
+                    
+                    xmin = zoo::as.yearqtr('201903', format = '%Y %q'),
+                    
+                    xmax = zoo::as.yearqtr('202001', format = '%Y %q'),
+                    
+                    ymin = 95, ymax = 180,
+                    
+                    fill = '#951126', alpha = 0.35) 
+
+
+```
+
+"Esse termo estranho nada mais é do que uma espécie de compensação que se faz com os números para que seja possível compará-los entre si. Primeiro é importante explicar que “sazonal” vem da palavra “sazão”, que significa “estação” (como season, em inglês). Portanto, ajuste sazonal é um acerto que se faz em função da variação de estação. Não é possível, por exemplo, comparar a safra de uma fruta no mês da colheita com o mês seguinte. É claro que, todo ano no mês da colheita, a produção será maior e isso não quer dizer que a agricultura andou mal no mês seguinte. É simplesmente o ciclo natural dela. Então, para que seja possível comparar esses dois meses, os economistas aplicam o ajuste sazonal, ou seja, uma fórmula que equilibra os números. O mesmo acontece se compararmos a produção de roupas em outubro com a de janeiro. Todo mundo sabe que em outubro as confecções estão fabricando as peças que serão vendidas no Natal, portanto elas sempre trabalham mais nessa época. O fato de que a produção de roupas em janeiro seja menor do que em outubro não representa nenhuma crise do setor têxtil, é apenas o ritmo natural do mercado. Para que as pessoas não saiam por aí tirando conclusões erradas, existem os ajustes sazonais, que adaptam os números à realidade de sua época. Outro recurso muito usado para evitar enganos é comparar um mês com o mesmo mês do ano anterior. Dezembro com dezembro, verão com verão, férias com férias."
+
+
+
+Explicar a necessidade do ajuste sazonal
+
+Explicar que mesmo com ajuste sazonal há flutuações
+
+```{r, echo = F, warning = F, message = F, error = F, fig.align = 'center', fig.width = 7, fig.height = 4, dpi = 300}
+
+
+pib_sa <- sidrar::get_sidra(api = '/t/1621/n1/all/v/all/p/all/c11255/90707',
+
+                         period = as.Date('2020-04-01')) %>%
+
+  janitor::clean_names() %>%
+
+  dplyr::mutate(date = zoo::as.yearqtr(trimestre_codigo, format = '%Y %q')) %>%
+
+  dplyr::select(date, valor)
+
+
+pib_sa %>%
+
+  ggplot2::ggplot() +
+
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+
+                     size = 0.5, colour = '#126244') +
+
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+
+                      colour = '#126244') +
+
+  ggplot2::labs(title = '**Produto Interno Bruto** (Brasil)',
+
+                subtitle = 'Série com Ajuste Sazonal',
+                
+                x = '**Trimestres**',
+                
+                y = '**Número Índice** (Base: media de 1995 = 100)',
+                
+                caption = '**Dados**: IBGE.') +
+  
+  ggplot2::ylim(95, 180) +
+  
+  zoo::scale_x_yearqtr(n = 24, format = '%y') +
+  
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+                 
+                 axis.title.y = ggtext::element_markdown(),
+                 
+                 plot.title = ggtext::element_markdown(),
+                 
+                 plot.caption = ggtext::element_markdown())
+
+```
+
+
+```{r, echo = F, warning = F, message = F, error = F, fig.align = 'center', fig.width = 7, fig.height = 4, dpi = 300}
+
+
+pib_sa <- sidrar::get_sidra(api = '/t/1621/n1/all/v/all/p/all/c11255/90707',
+
+                         period = as.Date('2020-04-01')) %>%
+
+  janitor::clean_names() %>%
+
+  dplyr::mutate(date = zoo::as.yearqtr(trimestre_codigo, format = '%Y %q')) %>%
+
+  dplyr::select(date, valor)
+
+
+pib_sa %>%
+
+  ggplot2::ggplot() +
+
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+
+                     size = 0.5, colour = '#126244') +
+
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+
+                      colour = '#126244') +
+
+  ggplot2::labs(title = '**Produto Interno Bruto** (Brasil)',
+
+                subtitle = 'Série com Ajuste Sazonal',
+                
+                x = '**Trimestres**',
+                
+                y = '**Número Índice** (Base: media de 1995 = 100)',
+                
+                caption = '**Dados**: IBGE.') +
+  
+  ggplot2::ylim(95, 180) +
+  
+  zoo::scale_x_yearqtr(n = 24, format = '%y') +
+  
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+                 
+                 axis.title.y = ggtext::element_markdown(),
+                 
+                 plot.title = ggtext::element_markdown(),
+                 
+                 plot.caption = ggtext::element_markdown()) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200101', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200104', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#951126', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200204', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200302', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#951126', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201403', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('201604', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#951126', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201902', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('202002', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#951126', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200104', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200203', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#354171', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200302', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200401', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#354171', alpha = 0.35)+
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200901', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200904', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#354171', alpha = 0.35)+
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201604', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('201703', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#354171', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('202002', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('202004', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#354171', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('199901', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200004', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#9CCD96', alpha = 0.35) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('200503', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('200802', format = '%Y %q'),
+
+                    ymin = 95, ymax = 180,
+
+                    fill = '#9CCD96', alpha = 0.35)
+
+```
+
+
+```{r, echo = F, warning = F, message = F, error = F, fig.align = 'center', fig.width = 7, fig.height = 7, dpi = 300}
+
+
+nivel_ocupacao <- sidrar::get_sidra(api = '/t/4093/n1/all/v/4097/p/all/c2/6794/d/v4097%201',
+
+                  period = as.Date('2020-04-01')) %>%
+
+  janitor::clean_names() %>%
+
+  dplyr::mutate(date = zoo::as.yearqtr(trimestre_codigo, format = '%Y %q'),
+
+                valor = valor/100) %>%
+
+  dplyr::select(date, valor)
+
+
+no <- nivel_ocupacao %>%
+
+  ggplot2::ggplot() +
+
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+
+                     size = 0.5, colour = '#126244') +
+
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+
+                      colour = '#126244') +
+
+  ggplot2::labs(title = '**Taxa de Ocupação** ',
+
+                subtitle = 'Proporção ocupada da população em idade de trabalhar',
+
+                x = '**Trimestres**',
+
+                y = '**Porcentagem**',
+
+                caption = '**Dados**: IBGE.') +
+
+  zoo::scale_x_yearqtr(n = 10, format = '%Y') +
+
+  ggplot2::scale_y_continuous(labels = scales::percent_format(suffix = '%', decimal.mark = ',')) +
+
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+
+                 axis.title.y = ggtext::element_markdown(),
+
+                 plot.title = ggtext::element_markdown(),
+
+                 plot.caption = ggtext::element_markdown()) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201501', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('201701', format = '%Y %q'),
+
+                    ymin = min(nivel_ocupacao$valor), ymax = max(nivel_ocupacao$valor),
+
+                    fill = 'red', alpha = 0.2) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201904', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('202003', format = '%Y %q'),
+
+                    ymin = max(nivel_ocupacao$valor), ymax = min(nivel_ocupacao$valor),
+
+                    fill = 'red', alpha = 0.2)
+
+
+
+pib <- pib_sa %>%
+
+  dplyr::filter(date >= zoo::as.yearqtr('201201', format = '%Y %q')) %>%
+
+  ggplot2::ggplot() +
+
+  ggplot2::geom_line(mapping = ggplot2::aes(x = date, y = valor),
+
+                     size = 0.5, colour = '#126244') +
+
+  ggplot2::geom_point(mapping = ggplot2::aes(x = date, y = valor),
+
+                      colour = '#126244') +
+
+  ggplot2::labs(title = '**Produto Interno Bruto** (Brasil)',
+
+                subtitle = 'Série com Ajuste Sazonal',
+
+                x = '**Trimestres**',
+
+                y = '**Número Índice** (Base: media de 1995 = 100)',
+
+                caption = '**Dados**: IBGE.') +
+
+  ggplot2::ylim(95, 180) +
+
+  zoo::scale_x_yearqtr(n = 10, format = '%Y') +
+
+  ggplot2::theme(axis.title.x = ggtext::element_markdown(),
+
+                 axis.title.y = ggtext::element_markdown(),
+
+                 plot.title = ggtext::element_markdown(),
+
+                 plot.caption = ggtext::element_markdown()) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201501', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('201604', format = '%Y %q'),
+
+                    ymin = min(pib_sa$valor), ymax = max(pib_sa$valor),
+
+                    fill = 'red', alpha = 0.2) +
+
+  ggplot2::annotate(geom = 'rect',
+
+                    xmin = zoo::as.yearqtr('201904', format = '%Y %q'),
+
+                    xmax = zoo::as.yearqtr('202002', format = '%Y %q'),
+
+                    ymin = min(pib_sa$valor), ymax = max(pib_sa$valor),
+
+                    fill = 'red', alpha = 0.2)
+
+
+gridExtra::grid.arrange(pib, no, nrow = 2)
+
+
+
+```
+
+
+Explicar que no final de contas estas curvas não são evitáveis completamente mas são possíveis de suavizar e que este é o papel do macroeconomista (quando associado à formulação das políticas públicas). E a própria previsão dos ciclos é importante para os homens e mulheres de negócios.
+
+Explicar os instrumentos partir para as notas metodológicas
+
+
+
+
+
+**instrumentos macroeconômicos** 
+
+**aspectos metodológicos da apostila**
+
+ 
+
+
+
+
+## Instrumentos da Macroeconomia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # FLUXO CIRCULAR DA RENDA
 
